@@ -1,10 +1,13 @@
 package a.zak.springcourse.dao;
 
 import a.zak.springcourse.models.Person;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class PersonDAO {
     private static int id_count;
     private List<Person> people;
