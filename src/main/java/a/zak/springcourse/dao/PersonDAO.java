@@ -1,7 +1,6 @@
 package a.zak.springcourse.dao;
 
 import a.zak.springcourse.models.Person;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
